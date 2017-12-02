@@ -5,7 +5,6 @@ sum = 0
 print("AoC 2017 - Day 2 / Part 1")
 
 for line in input:
-    # print(line)
     row = [ int(x) for x in line.split('\t') ]
     checksum = max(row) - min(row)
     sum = sum + checksum;
